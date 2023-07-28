@@ -1,0 +1,17 @@
+.navbar__container {
+    display: grid;
+
+    &-ul {
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        justify-content: center;
+    }
+
+    &-li {
+        list-style: none;
+        
+        .anchor-tag {
+            color: red;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.navbar__container {
+  display: grid;
+}
+.navbar__container-ul {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-content: center;
+}
+.navbar__container-li {
+  list-style: none;
+}
+.navbar__container-li .anchor-tag {
+  color: red;
+}
